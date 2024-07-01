@@ -4995,11 +4995,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mati2\\Downloads\\Bootcamp-main (3)\\Bootcamp-main\\BackEndNETLINUX\\BackEndNETLINUX\\BackEndNETLINUX.csproj",
+      "projectUniqueName": "C:\\Users\\mati2\\Desktop\\Bootcamp\\TempoTrack\\BackEndNET\\BackEndNETLINUX\\BackEndNETLINUX.csproj",
       "projectName": "BackEndNETLINUX",
-      "projectPath": "C:\\Users\\mati2\\Downloads\\Bootcamp-main (3)\\Bootcamp-main\\BackEndNETLINUX\\BackEndNETLINUX\\BackEndNETLINUX.csproj",
+      "projectPath": "C:\\Users\\mati2\\Desktop\\Bootcamp\\TempoTrack\\BackEndNET\\BackEndNETLINUX\\BackEndNETLINUX.csproj",
       "packagesPath": "C:\\Users\\mati2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mati2\\Downloads\\Bootcamp-main (3)\\Bootcamp-main\\BackEndNETLINUX\\BackEndNETLINUX\\obj\\",
+      "outputPath": "C:\\Users\\mati2\\Desktop\\Bootcamp\\TempoTrack\\BackEndNET\\BackEndNETLINUX\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

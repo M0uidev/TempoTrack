@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mNYxodbHylpZRKbEUogMAUaN9Q6FtxaP3xhl8Y4mwXnEjJ/A/YJlAz1aU4MUaiEobZMxzItS9Y9lnhLrB/U9hw==",
+  "dgSpecHash": "M5fAocxZS0Jfy+zfoZjNxWGIdKWtDH5usz9RAChY/GYRCLKqTrvuCf5ANRf6szJdpkRcHv3FxNDOZ9m2Z0VzAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mati2\\Downloads\\Bootcamp-main (3)\\Bootcamp-main\\BackEndNETLINUX\\BackEndNETLINUX\\BackEndNETLINUX.csproj",
+  "projectFilePath": "C:\\Users\\mati2\\Desktop\\Bootcamp\\TempoTrack\\BackEndNET\\BackEndNETLINUX\\BackEndNETLINUX.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mati2\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\mati2\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

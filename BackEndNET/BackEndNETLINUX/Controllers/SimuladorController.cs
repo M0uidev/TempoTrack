@@ -535,7 +535,7 @@ namespace BackEndNETLINUX.Controllers
             }
         }
 
-        [HttpGet("promedioHorasTrabajadas")]
+        [HttpGet("promedioHorasTrabajadas")]        
         public IActionResult PromedioHorasTrabajadas([FromQuery] int? trabajadorId, [FromQuery] string fechaInicio, [FromQuery] string fechaFin)
         {
             try
@@ -933,6 +933,20 @@ namespace BackEndNETLINUX.Controllers
                 .ToDictionary(kvp => kvp.Key, kvp => kvp.Value);
 
             return Ok(turnosFDS);
+        }
+
+        [HttpGet("trabajadores")]
+        public IActionResult Trabajadores()
+        {
+            var trabajadores = _context.RegistrosTiempo.ToList();
+            var trabajadoresSet = new HashSet<int>();
+
+            foreach (var trabajador in trabajadores)
+            {
+                trabajadoresSet.Add(trabajador.TrabajadorID);
+            }
+
+            return Ok(trabajadoresSet);
         }
     }
 }

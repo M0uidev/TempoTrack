@@ -1,0 +1,20 @@
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\bin\Debug\net8.0-windows\TempoTrack VBasic.exe
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\bin\Debug\net8.0-windows\TempoTrack VBasic.deps.json
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\bin\Debug\net8.0-windows\TempoTrack VBasic.runtimeconfig.json
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\bin\Debug\net8.0-windows\TempoTrack VBasic.dll
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\bin\Debug\net8.0-windows\TempoTrack VBasic.pdb
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\TempoTrack VBasic.vbproj.GenerateResource.cache
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\TempoTrack VBasic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\TempoTrack VBasic.AssemblyInfoInputs.cache
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\TempoTrack VBasic.AssemblyInfo.vb
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\TempoTrack VBasic.vbproj.CoreCompileInputs.cache
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\TempoTrack VBasic.sourcelink.json
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\TempoTrack VBasic.dll
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\refint\TempoTrack VBasic.dll
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\TempoTrack VBasic.pdb
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\TempoTrack VBasic.genruntimeconfig.cache
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\ref\TempoTrack VBasic.dll
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\TempoTrack_VBasic.FormContainer.resources
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\TempoTrack_VBasic.FormInicioSesion.resources
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\TempoTrack_VBasic.FormAdminView.resources
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\TempoTrack_VBasic.FormTrabajadorView.resources

@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mati2\\Desktop\\Bootcamp\\TempoTrack\\TempoTrack VBasic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA39BB4-0728-48F4-A455-0CC00416B2A1}|TempoTrack VBasic.vbproj|c:\\users\\mati2\\desktop\\bootcamp\\tempotrack\\tempotrack vbasic\\formadminview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9BA39BB4-0728-48F4-A455-0CC00416B2A1}|TempoTrack VBasic.vbproj|solutionrelative:formadminview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA39BB4-0728-48F4-A455-0CC00416B2A1}|TempoTrack VBasic.vbproj|c:\\users\\mati2\\desktop\\bootcamp\\tempotrack\\tempotrack vbasic\\forminiciosesion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9BA39BB4-0728-48F4-A455-0CC00416B2A1}|TempoTrack VBasic.vbproj|solutionrelative:forminiciosesion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA39BB4-0728-48F4-A455-0CC00416B2A1}|TempoTrack VBasic.vbproj|c:\\users\\mati2\\desktop\\bootcamp\\tempotrack\\tempotrack vbasic\\formadminview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9BA39BB4-0728-48F4-A455-0CC00416B2A1}|TempoTrack VBasic.vbproj|solutionrelative:formadminview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA39BB4-0728-48F4-A455-0CC00416B2A1}|TempoTrack VBasic.vbproj|c:\\users\\mati2\\desktop\\bootcamp\\tempotrack\\tempotrack vbasic\\formtrabajadorview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9BA39BB4-0728-48F4-A455-0CC00416B2A1}|TempoTrack VBasic.vbproj|solutionrelative:formtrabajadorview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA39BB4-0728-48F4-A455-0CC00416B2A1}|TempoTrack VBasic.vbproj|c:\\users\\mati2\\desktop\\bootcamp\\tempotrack\\tempotrack vbasic\\formtrabajadorview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9BA39BB4-0728-48F4-A455-0CC00416B2A1}|TempoTrack VBasic.vbproj|solutionrelative:formtrabajadorview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA39BB4-0728-48F4-A455-0CC00416B2A1}|TempoTrack VBasic.vbproj|c:\\users\\mati2\\desktop\\bootcamp\\tempotrack\\tempotrack vbasic\\forminiciosesion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{9BA39BB4-0728-48F4-A455-0CC00416B2A1}|TempoTrack VBasic.vbproj|solutionrelative:forminiciosesion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA39BB4-0728-48F4-A455-0CC00416B2A1}|TempoTrack VBasic.vbproj|c:\\users\\mati2\\desktop\\bootcamp\\tempotrack\\tempotrack vbasic\\formcontainer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9BA39BB4-0728-48F4-A455-0CC00416B2A1}|TempoTrack VBasic.vbproj|solutionrelative:formcontainer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 325,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormTrabajadorView.vb",
+              "DocumentMoniker": "C:\\Users\\mati2\\Desktop\\Bootcamp\\TempoTrack\\TempoTrack VBasic\\FormTrabajadorView.vb",
+              "RelativeDocumentMoniker": "FormTrabajadorView.vb",
+              "ToolTip": "C:\\Users\\mati2\\Desktop\\Bootcamp\\TempoTrack\\TempoTrack VBasic\\FormTrabajadorView.vb",
+              "RelativeToolTip": "FormTrabajadorView.vb",
+              "ViewState": "AQIAABMAAAAAAAAAAADwvyQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-01T02:47:31.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormTrabajadorView.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\mati2\\Desktop\\Bootcamp\\TempoTrack\\TempoTrack VBasic\\FormTrabajadorView.vb",
+              "RelativeDocumentMoniker": "FormTrabajadorView.vb",
+              "ToolTip": "C:\\Users\\mati2\\Desktop\\Bootcamp\\TempoTrack\\TempoTrack VBasic\\FormTrabajadorView.vb [Design]",
+              "RelativeToolTip": "FormTrabajadorView.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-01T01:43:38.412Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormAdminView.vb",
+              "DocumentMoniker": "C:\\Users\\mati2\\Desktop\\Bootcamp\\TempoTrack\\TempoTrack VBasic\\FormAdminView.vb",
+              "RelativeDocumentMoniker": "FormAdminView.vb",
+              "ToolTip": "C:\\Users\\mati2\\Desktop\\Bootcamp\\TempoTrack\\TempoTrack VBasic\\FormAdminView.vb",
+              "RelativeToolTip": "FormAdminView.vb",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwCYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-01T01:34:47.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormContainer.vb",
+              "DocumentMoniker": "C:\\Users\\mati2\\Desktop\\Bootcamp\\TempoTrack\\TempoTrack VBasic\\FormContainer.vb",
+              "RelativeDocumentMoniker": "FormContainer.vb",
+              "ToolTip": "C:\\Users\\mati2\\Desktop\\Bootcamp\\TempoTrack\\TempoTrack VBasic\\FormContainer.vb",
+              "RelativeToolTip": "FormContainer.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-01T01:18:21.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormInicioSesion.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\mati2\\Desktop\\Bootcamp\\TempoTrack\\TempoTrack VBasic\\FormInicioSesion.vb",
+              "RelativeDocumentMoniker": "FormInicioSesion.vb",
+              "ToolTip": "C:\\Users\\mati2\\Desktop\\Bootcamp\\TempoTrack\\TempoTrack VBasic\\FormInicioSesion.vb [Design]",
+              "RelativeToolTip": "FormInicioSesion.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-01T01:32:55.604Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormInicioSesion.vb",
+              "DocumentMoniker": "C:\\Users\\mati2\\Desktop\\Bootcamp\\TempoTrack\\TempoTrack VBasic\\FormInicioSesion.vb",
+              "RelativeDocumentMoniker": "FormInicioSesion.vb",
+              "ToolTip": "C:\\Users\\mati2\\Desktop\\Bootcamp\\TempoTrack\\TempoTrack VBasic\\FormInicioSesion.vb",
+              "RelativeToolTip": "FormInicioSesion.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-01T01:01:07.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormAdminView.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\mati2\\Desktop\\Bootcamp\\TempoTrack\\TempoTrack VBasic\\FormAdminView.vb",
+              "RelativeDocumentMoniker": "FormAdminView.vb",
+              "ToolTip": "C:\\Users\\mati2\\Desktop\\Bootcamp\\TempoTrack\\TempoTrack VBasic\\FormAdminView.vb [Design]",
+              "RelativeToolTip": "FormAdminView.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-01T00:31:01.652Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
