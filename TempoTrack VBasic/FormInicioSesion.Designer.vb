@@ -28,6 +28,12 @@ Partial Class FormInicioSesion
         Contraseña = New TextBox()
         Button1 = New Button()
         Label3 = New Label()
+        Button2 = New Button()
+        Button3 = New Button()
+        Button4 = New Button()
+        Label4 = New Label()
+        Button5 = New Button()
+        Label5 = New Label()
         SuspendLayout()
         ' 
         ' Label1
@@ -84,11 +90,70 @@ Partial Class FormInicioSesion
         Label3.Size = New Size(0, 15)
         Label3.TabIndex = 5
         ' 
+        ' Button2
+        ' 
+        Button2.Location = New Point(12, 12)
+        Button2.Name = "Button2"
+        Button2.Size = New Size(132, 23)
+        Button2.TabIndex = 6
+        Button2.Text = "Run Sim"
+        Button2.UseVisualStyleBackColor = True
+        ' 
+        ' Button3
+        ' 
+        Button3.Location = New Point(12, 41)
+        Button3.Name = "Button3"
+        Button3.Size = New Size(132, 23)
+        Button3.TabIndex = 7
+        Button3.Text = "Generar 3 días"
+        Button3.UseVisualStyleBackColor = True
+        ' 
+        ' Button4
+        ' 
+        Button4.Location = New Point(12, 70)
+        Button4.Name = "Button4"
+        Button4.Size = New Size(132, 23)
+        Button4.TabIndex = 8
+        Button4.Text = "Limpiar Base De Datos"
+        Button4.UseVisualStyleBackColor = True
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.ForeColor = Color.Blue
+        Label4.Location = New Point(12, 96)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(0, 15)
+        Label4.TabIndex = 9
+        ' 
+        ' Button5
+        ' 
+        Button5.Location = New Point(756, 12)
+        Button5.Name = "Button5"
+        Button5.Size = New Size(32, 23)
+        Button5.TabIndex = 10
+        Button5.Text = "Ids"
+        Button5.UseVisualStyleBackColor = True
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Location = New Point(490, 16)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(0, 15)
+        Label5.TabIndex = 11
+        ' 
         ' FormInicioSesion
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(Label5)
+        Controls.Add(Button5)
+        Controls.Add(Label4)
+        Controls.Add(Button4)
+        Controls.Add(Button3)
+        Controls.Add(Button2)
         Controls.Add(Label3)
         Controls.Add(Button1)
         Controls.Add(Contraseña)
@@ -107,4 +172,10 @@ Partial Class FormInicioSesion
     Friend WithEvents Contraseña As TextBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Label3 As Label
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Label5 As Label
 End Class

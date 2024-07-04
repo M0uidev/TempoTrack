@@ -60,7 +60,7 @@ Public Class FormTrabajadorView
 
             ' Skip specific keys
             Select Case key
-                Case "Id", "Fecha_inicio", "Fecha_final", "TrabajadorId", "FechaInicio", "FechaFin"
+                Case "Id", "Fecha_inicio", "Fecha_final", "TrabajadorId", "FechaInicio", "FechaFin", "Fecha_fin", "Periodo_evaluado"
                     Continue For
             End Select
 
@@ -77,6 +77,11 @@ Public Class FormTrabajadorView
                 key = "Horas Trabajadas"
             End If
 
+            If key = "Top_trabajadores" Then
+                Dim value As String = kvp.Value.ToString().Replace("""", "")
+                formattedJson.AppendLine().Append(indentation).Append(key).Append(": ").Append(value)
+                Return formattedJson.ToString().Trim()
+            End If
 
             If key IsNot "" Then
                 formattedJson.Append(indentation).Append(key).Append(": ")
@@ -132,5 +137,9 @@ Public Class FormTrabajadorView
     End Sub
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         FormContainer.MostrarNuevoForm(FormInicioSesion)
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        FetchData("https://localhost:7167/api/simulador/topTrabajadores?fecha_inicio=" + fechaInicioSeleccionada + "&fecha_fin=" + fechaFinSeleccionada, TextBox1)
     End Sub
 End Class

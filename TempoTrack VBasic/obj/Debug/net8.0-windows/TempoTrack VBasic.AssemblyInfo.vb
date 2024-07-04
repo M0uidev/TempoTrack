@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("TempoTrack VBasic"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f186ef7f8a4ff79222b802aae14e7b52b9501946"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+396f5684fa7971b1e9d47bbe995d9487848396e2"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("TempoTrack VBasic"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("TempoTrack VBasic"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

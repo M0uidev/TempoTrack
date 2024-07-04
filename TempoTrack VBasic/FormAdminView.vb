@@ -68,4 +68,32 @@ Public Class FormAdminView
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         FormContainer.MostrarNuevoForm(FormInicioSesion)
     End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        FetchData("https://localhost:7167/api/simulador/registrosTiempo", TextBox1)
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        FetchData("https://localhost:7167/api/simulador/puntualidad", TextBox1)
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        FetchData("https://localhost:7167/api/simulador/diasTrabajados", TextBox1)
+    End Sub
+
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        FetchData("https://localhost:7167/api/simulador/diasNoTrabajadosConsecutivos", TextBox1)
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        FetchData("https://localhost:7167/api/simulador/diaConMasHoras", TextBox1)
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        FetchData("https://localhost:7167/api/simulador/ausenciasJustificadas", TextBox1)
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        FetchData("https://localhost:7167/api/simulador/identifTurnosFDS", TextBox1)
+    End Sub
 End Class

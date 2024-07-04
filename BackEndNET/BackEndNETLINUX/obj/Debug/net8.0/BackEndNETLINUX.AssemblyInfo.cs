@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackEndNETLINUX")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f186ef7f8a4ff79222b802aae14e7b52b9501946")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+396f5684fa7971b1e9d47bbe995d9487848396e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackEndNETLINUX")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackEndNETLINUX")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

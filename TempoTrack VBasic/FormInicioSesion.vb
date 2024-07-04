@@ -48,6 +48,9 @@ Public Class FormInicioSesion
 
                 ' Agregar los IDs a la lista trabajadoresList
                 trabajadoresList.AddRange(ids)
+                Dim result As String = String.Join(", ", trabajadoresList)
+                resultLabel.Text = result.ToString
+
             End Using
             ' Limpiar los flujos y la respuesta
             response.Close()
@@ -71,4 +74,23 @@ Public Class FormInicioSesion
 
         Return trabajadores
     End Function
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        FetchData("https://localhost:7167/api/simulador/runsimulador", Label4)
+        Label4.Text = "Simulador corrido con éxito."
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        FetchData("https://localhost:7167/api/simulador/runmasdias?dias=3", Label4)
+        Label4.Text = "3 dias generados con éxito."
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        FetchData("https://localhost:7167/api/simulador/clean", Label4)
+        Label4.Text = "Base de datos limpiada con éxito."
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        FetchData("https://localhost:7167/api/simulador/trabajadores", Label5)
+    End Sub
 End Class

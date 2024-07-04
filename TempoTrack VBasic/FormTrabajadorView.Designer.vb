@@ -38,6 +38,7 @@ Partial Class FormTrabajadorView
         Button6 = New Button()
         Button7 = New Button()
         GroupBox1 = New GroupBox()
+        Button8 = New Button()
         GroupBox2 = New GroupBox()
         GroupBox1.SuspendLayout()
         GroupBox2.SuspendLayout()
@@ -45,7 +46,7 @@ Partial Class FormTrabajadorView
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(6, 65)
+        Button1.Location = New Point(8, 50)
         Button1.Name = "Button1"
         Button1.Size = New Size(168, 23)
         Button1.TabIndex = 1
@@ -55,14 +56,14 @@ Partial Class FormTrabajadorView
         ' TextBox1
         ' 
         TextBox1.BackColor = SystemColors.Menu
-        TextBox1.Font = New Font("Segoe UI Emoji", 18F)
+        TextBox1.Font = New Font("Segoe UI Emoji", 12F)
         TextBox1.Location = New Point(12, 174)
         TextBox1.Multiline = True
         TextBox1.Name = "TextBox1"
-        TextBox1.ScrollBars = ScrollBars.Horizontal
-        TextBox1.Size = New Size(498, 264)
+        TextBox1.ReadOnly = True
+        TextBox1.ScrollBars = ScrollBars.Vertical
+        TextBox1.Size = New Size(776, 264)
         TextBox1.TabIndex = 2
-        TextBox1.Text = "Horas_trabajadas: 09:24:00"
         ' 
         ' Button2
         ' 
@@ -149,7 +150,7 @@ Partial Class FormTrabajadorView
         ' 
         ' Button5
         ' 
-        Button5.Location = New Point(6, 118)
+        Button5.Location = New Point(8, 83)
         Button5.Name = "Button5"
         Button5.Size = New Size(168, 23)
         Button5.TabIndex = 18
@@ -158,7 +159,7 @@ Partial Class FormTrabajadorView
         ' 
         ' Button6
         ' 
-        Button6.Location = New Point(182, 65)
+        Button6.Location = New Point(184, 50)
         Button6.Name = "Button6"
         Button6.Size = New Size(168, 23)
         Button6.TabIndex = 19
@@ -167,7 +168,7 @@ Partial Class FormTrabajadorView
         ' 
         ' Button7
         ' 
-        Button7.Location = New Point(182, 118)
+        Button7.Location = New Point(184, 83)
         Button7.Name = "Button7"
         Button7.Size = New Size(168, 23)
         Button7.TabIndex = 20
@@ -177,18 +178,28 @@ Partial Class FormTrabajadorView
         ' GroupBox1
         ' 
         GroupBox1.BackColor = SystemColors.ControlDark
+        GroupBox1.Controls.Add(Button8)
         GroupBox1.Controls.Add(Button6)
         GroupBox1.Controls.Add(Button7)
         GroupBox1.Controls.Add(Button1)
         GroupBox1.Controls.Add(Button3)
         GroupBox1.Controls.Add(Button5)
         GroupBox1.Controls.Add(Button4)
-        GroupBox1.Location = New Point(208, 12)
+        GroupBox1.Location = New Point(263, 12)
         GroupBox1.Name = "GroupBox1"
         GroupBox1.Size = New Size(359, 147)
         GroupBox1.TabIndex = 21
         GroupBox1.TabStop = False
         GroupBox1.Text = "Servicios"
+        ' 
+        ' Button8
+        ' 
+        Button8.Location = New Point(95, 113)
+        Button8.Name = "Button8"
+        Button8.Size = New Size(168, 23)
+        Button8.TabIndex = 23
+        Button8.Text = "Top Trabajadores"
+        Button8.UseVisualStyleBackColor = True
         ' 
         ' GroupBox2
         ' 
@@ -240,4 +251,5 @@ Partial Class FormTrabajadorView
     Friend WithEvents Button7 As Button
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents Button8 As Button
 End Class

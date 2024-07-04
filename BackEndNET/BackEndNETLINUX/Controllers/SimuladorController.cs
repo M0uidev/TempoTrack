@@ -292,7 +292,7 @@ namespace BackEndNETLINUX.Controllers
             };
 
             return Ok(respuesta);
-        }
+        } 
 
         [HttpGet("puntualidad")]
         public IActionResult Puntualidad()
@@ -472,11 +472,8 @@ namespace BackEndNETLINUX.Controllers
                 var horasTrabajadas = registroConMenorTiempo.TiempoTrabajado.HasValue ? registroConMenorTiempo.TiempoTrabajado.Value.ToString(@"hh\:mm") : "00:00";
                 var respuesta = new
                 {
-                    dia_menor_tiempo = new
-                    {
-                        fecha = registroConMenorTiempo.Fecha,
-                        horas_trabajadas = horasTrabajadas
-                    }
+                    fecha = registroConMenorTiempo.Fecha.ToString("yyyy-MM-dd"),
+                    horas_trabajadas = horasTrabajadas
                 };
 
                 return Ok(respuesta);
