@@ -37,7 +37,6 @@ Partial Class FormAdminView
         TextBox1.Size = New Size(498, 264)
         TextBox1.TabIndex = 0
         TextBox1.Text = "Holi"
-        TextBox1.TextAlign = HorizontalAlignment.Center
         ' 
         ' Button1
         ' 

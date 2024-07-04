@@ -38,7 +38,9 @@ Partial Class FormContainer
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
         Controls.Add(Panel1)
+        MaximizeBox = False
         Name = "FormContainer"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "TempoTrack"
         ResumeLayout(False)
     End Sub

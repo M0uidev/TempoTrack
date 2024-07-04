@@ -27,7 +27,7 @@ namespace BackEndNETLINUX.Controllers
         {
             try
             {
-                string simuladorPath = "C:/Users/mati2/Downloads/Bootcamp-main (3)/Bootcamp-main/BackEndNETLINUX/BackEndNETLINUX/Controllers/simReloj.exe";
+                string simuladorPath = "C:/Users/mati2/Desktop/Bootcamp/TempoTrack/BackEndNET/BackEndNETLINUX/Controllers/simReloj.exe";
                 var process = new Process
                 {
                     StartInfo = new ProcessStartInfo
@@ -470,7 +470,6 @@ namespace BackEndNETLINUX.Controllers
 
                 // Convertir las horas trabajadas a formato horas:minutos
                 var horasTrabajadas = registroConMenorTiempo.TiempoTrabajado.HasValue ? registroConMenorTiempo.TiempoTrabajado.Value.ToString(@"hh\:mm") : "00:00";
-
                 var respuesta = new
                 {
                     dia_menor_tiempo = new

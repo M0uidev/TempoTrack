@@ -61,6 +61,7 @@ Partial Class FormInicioSesion
         ' 
         Contraseña.Location = New Point(12, 411)
         Contraseña.Name = "Contraseña"
+        Contraseña.PasswordChar = "*"c
         Contraseña.Size = New Size(154, 23)
         Contraseña.TabIndex = 3
         ' 

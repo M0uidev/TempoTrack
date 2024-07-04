@@ -54,13 +54,15 @@ Partial Class FormTrabajadorView
         ' 
         ' TextBox1
         ' 
+        TextBox1.BackColor = SystemColors.Menu
+        TextBox1.Font = New Font("Segoe UI Emoji", 18F)
         TextBox1.Location = New Point(12, 174)
         TextBox1.Multiline = True
         TextBox1.Name = "TextBox1"
         TextBox1.ScrollBars = ScrollBars.Horizontal
         TextBox1.Size = New Size(498, 264)
         TextBox1.TabIndex = 2
-        TextBox1.TextAlign = HorizontalAlignment.Center
+        TextBox1.Text = "Horas_trabajadas: 09:24:00"
         ' 
         ' Button2
         ' 
@@ -138,7 +140,7 @@ Partial Class FormTrabajadorView
         ' 
         ' Button4
         ' 
-        Button4.Location = New Point(6, 118)
+        Button4.Location = New Point(182, 15)
         Button4.Name = "Button4"
         Button4.Size = New Size(168, 23)
         Button4.TabIndex = 16
@@ -147,7 +149,7 @@ Partial Class FormTrabajadorView
         ' 
         ' Button5
         ' 
-        Button5.Location = New Point(185, 15)
+        Button5.Location = New Point(6, 118)
         Button5.Name = "Button5"
         Button5.Size = New Size(168, 23)
         Button5.TabIndex = 18

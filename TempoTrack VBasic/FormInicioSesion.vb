@@ -71,5 +71,4 @@ Public Class FormInicioSesion
 
         Return trabajadores
     End Function
-
 End Class

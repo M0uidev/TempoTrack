@@ -18,3 +18,6 @@ C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-wi
 C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\TempoTrack_VBasic.FormInicioSesion.resources
 C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\TempoTrack_VBasic.FormAdminView.resources
 C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\TempoTrack_VBasic.FormTrabajadorView.resources
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\TempoTrack VBasic.vbproj.AssemblyReference.cache
+C:\Users\mati2\Desktop\Bootcamp\TempoTrack\TempoTrack VBasic\obj\Debug\net8.0-windows\TempoTra.D0EDF043.Up2Date

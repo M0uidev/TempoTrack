@@ -1,5 +1,7 @@
 ﻿Imports System.Net
 Imports System.IO
+Imports Newtonsoft.Json ' Asegúrate de agregar esta línea para importar la biblioteca Json.NET
+
 Public Class FormAdminView
     Public Sub FetchData(ByVal url As String, ByVal resultTextBox As TextBox)
         Try
@@ -22,8 +24,11 @@ Public Class FormAdminView
             ' Leer el contenido
             Dim responseFromServer As String = reader.ReadToEnd()
 
-            ' Mostrar el contenido en el TextBox seleccionado
-            resultTextBox.Text = responseFromServer
+            ' Formatear el JSON
+            Dim formattedJson As String = FormatJson(responseFromServer)
+
+            ' Mostrar el contenido formateado en el TextBox seleccionado
+            resultTextBox.Text = formattedJson
 
             ' Limpiar los flujos y la respuesta
             reader.Close()
@@ -43,9 +48,15 @@ Public Class FormAdminView
                 resultTextBox.Text = "WebException: " & webEx.Message
             End If
         Catch ex As Exception
-            resultTextBox.Text = "WebException: " & ex.ToString
+            resultTextBox.Text = "Exception: " & ex.ToString
         End Try
     End Sub
+
+    Private Function FormatJson(ByVal jsonString As String) As String
+        ' Formatear el JSON usando Newtonsoft.Json
+        Dim parsedJson = JsonConvert.DeserializeObject(jsonString)
+        Return JsonConvert.SerializeObject(parsedJson, Formatting.Indented)
+    End Function
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         FetchData("https://localhost:7167/api/simulador/TrabajadoresConHorasCero", TextBox1)
